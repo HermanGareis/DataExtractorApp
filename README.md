@@ -9,3 +9,5 @@ It uses this second API to match the Comune Province with the Province Sigla: ht
 One the data has been fetched it is sent to a Kafka Topic to later be consumed.
 
 To fetch the data and send it via Kafka you need to issue a GET request to the path /requestSendRecords.
+
+It works in conjunction with this other repository that recieves the data from the Topic and provides fetching methods: https://github.com/HermanGareis/DataAggregatorApp
